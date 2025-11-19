@@ -1,0 +1,43 @@
+/* CSS khusus untuk komponen autentikasi */
+.modal-header {
+    border-bottom: 1px solid #eee;
+    padding: 1.2rem;
+}
+
+.modal-body {
+    padding: 1.2rem;
+}
+
+.modal-footer {
+    border-top: 1px solid #eee;
+    padding: 1.2rem;
+}
+
+.login-required-modal .modal-header {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.login-required-modal .modal-footer {
+    border-top: none;
+    padding-top: 0;
+}
+
+.create-account-link {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.create-account-link p {
+    margin: 0;
+}
+
+.create-account-link a {
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.create-account-link a:hover {
+    text-decoration: underline;
+}
